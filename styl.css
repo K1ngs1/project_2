@@ -1,0 +1,43 @@
+html{
+    text-align:center;
+    background: linear-gradient(#0390fc 0%, #45fc03 100%);
+    background-repeat: no-repeat;
+    scroll-behavior: smooth;
+}
+#img{
+    width: 175px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+.links{
+    float: left;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+.menu{
+    list-style: none;
+    font-family: sans-serif;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    cursor: pointer;
+    z-index: 10;
+    color: white;
+}
+.links:hover{
+    color: blue;
+}
+#h1_bask{
+    font-family: 'Anton', sans-serif;
+}     
+#bas_pic{
+    padding: 10px;
+    width: 30%;
+} 
+#about{
+    padding: 5px;
+}
